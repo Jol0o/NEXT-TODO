@@ -22,7 +22,6 @@ const LoginPage = () => {
   const [loginEmail, setLoginEmail] = useState("");
   const [loginPassword, setLoginPassword] = useState("");
   const [error, setError] = useState("");
-
   const { open, setOpen } = useAuth();
 
   const loginGoogle = async () => {
