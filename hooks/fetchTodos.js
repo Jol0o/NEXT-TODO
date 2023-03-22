@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { doc, getDoc } from 'firebase/firestore';
-import { db } from './../pages/firebase';
+import { db } from '../firebase/firebase';
 import { useAuth } from './../context/AuthContext';
 
 export default function useFetchTodo() {

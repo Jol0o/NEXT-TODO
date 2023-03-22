@@ -3,7 +3,7 @@ import Modal from "./Modal";
 import { useAuth } from "./../../context/AuthContext";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { doc, setDoc, deleteField } from "firebase/firestore";
-import { db } from "../firebase";
+import { db } from "../../firebase/firebase";
 import useFetchTodo from "./../../hooks/fetchTodos";
 import TodoCard from "./TodoCard";
 
